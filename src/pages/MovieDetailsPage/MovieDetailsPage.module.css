@@ -1,0 +1,65 @@
+.container {
+  padding: 20px;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.movieWrapper {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.poster {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  max-width: 700px;
+}
+
+.info h2 {
+  margin-top: 0;
+}
+
+.additional {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  height: 2px;
+  background-color: #ccc;
+  width: 100vw;
+}
+
+.additional h3 {
+  margin: 5px 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.additionalLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  max-width: 200px;
+}
+
+.additionalLinks li a {
+  text-decoration: underline;
+  color: #0030d7;
+  font-weight: 500;
+}

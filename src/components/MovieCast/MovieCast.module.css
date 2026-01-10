@@ -1,0 +1,36 @@
+.castList {
+  list-style: none;
+  padding: 40px;
+  margin: 0 0 20px 0;
+}
+
+.castItem {
+  margin-bottom: 10px;
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  margin: 0 0 2px 0;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #333;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-left: -15px;
+  margin-right: 8px;
+}
+
+.name {
+  font-weight: 500;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.character {
+  margin: 0 0 14px 0px;
+  padding: 0;
+}
